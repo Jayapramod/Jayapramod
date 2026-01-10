@@ -13,7 +13,7 @@ I design scalable cloud infrastructure, automate CI/CD pipelines, and optimize s
 ## 🛠️ Tech Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=aws,terraform,docker,kubernetes,linux,git,githubactions,python,go" height="60" />
+  <img src="https://skillicons.dev/icons?i=aws,terraform,docker,kubernetes,linux,git,githubactions,python" height="60" />
 </div>
 
 ---
