@@ -30,7 +30,7 @@ I design scalable cloud infrastructure, automate CI/CD pipelines, and optimize s
 ## 📊 GitHub Stats
 
 <img
-  src="https://raw.githubusercontent.com/Jayapramod/Jayapramod/output/github-stats.svg"
+  src="https://raw.githubusercontent.com/Jayapramod/Jayapramod/output/metrics.svg"
   alt="GitHub stats"
 />
 
