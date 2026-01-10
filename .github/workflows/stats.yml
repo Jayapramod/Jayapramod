@@ -8,7 +8,6 @@ on:
 jobs:
   stats:
     runs-on: ubuntu-latest
-
     steps:
       - uses: lowlighter/metrics@latest
         with:
@@ -18,3 +17,4 @@ jobs:
           base: header, activity, repositories
           config_timezone: Asia/Kolkata
           output_action: github-pages
+          output_branch: output
