@@ -2,7 +2,7 @@ name: Generate GitHub Stats SVG
 
 on:
   schedule:
-    - cron: "0 2 * * *"   # daily
+    - cron: "0 2 * * *"
   workflow_dispatch:
 
 jobs:
@@ -10,8 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate GitHub Stats SVG
-        uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           user: Jayapramod
@@ -19,5 +18,3 @@ jobs:
           base: header, activity, repositories
           config_timezone: Asia/Kolkata
           output_action: github-pages
-          output_branch: output
-          output_filename: github-stats.svg
