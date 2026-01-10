@@ -27,13 +27,12 @@ I design scalable cloud infrastructure, automate CI/CD pipelines, and optimize s
 </div>
 
 ---
+## Test GitHub Stats
 
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=dracula" height="150" />
-  <img src="https://github-profile-trophy.vercel.app?username=YOUR_USERNAME&theme=dracula&row=1&column=6" height="150" />
-</div>
+<img
+  src="https://github-readme-stats.vercel.app/api?username=Jayapramod&show_icons=true"
+  alt="stats"
+/>
 
 ---
 
