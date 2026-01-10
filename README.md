@@ -27,12 +27,13 @@ I design scalable cloud infrastructure, automate CI/CD pipelines, and optimize s
 </div>
 
 ---
-## Test GitHub Stats
+## 📊 GitHub Stats
 
 <img
-  src="https://github-readme-stats.vercel.app/api?username=Jayapramod&show_icons=true"
-  alt="stats"
+  src="https://raw.githubusercontent.com/Jayapramod/Jayapramod/output/github-stats.svg"
+  alt="GitHub stats"
 />
+
 
 ---
 
