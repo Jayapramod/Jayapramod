@@ -1,8 +1,8 @@
-name: Generate GitHub Stats
+name: Generate GitHub Stats SVG
 
 on:
   schedule:
-    - cron: "0 1 * * *"
+    - cron: "0 2 * * *"   # daily
   workflow_dispatch:
 
 jobs:
@@ -10,22 +10,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
-
-      - name: Generate stats SVG
-        uses: anuraghazra/github-readme-stats@master
+      - name: Generate GitHub Stats SVG
+        uses: lowlighter/metrics@latest
         with:
-          username: Jayapramod
-          theme: dracula
-          show_icons: true
-          count_private: true
-          hide_border: true
-          output: stats.svg
-
-      - name: Push stats
-        uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: .
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: Jayapramod
+          template: classic
+          base: header, activity, repositories
+          config_timezone: Asia/Kolkata
+          output_action: github-pages
+          output_branch: output
+          output_filename: github-stats.svg
