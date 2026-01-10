@@ -1,12 +1,12 @@
 name: Generate GitHub Stats SVG
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 2 * * *"
-  workflow_dispatch:
 
 jobs:
-  stats:
+  metrics:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
@@ -16,5 +16,5 @@ jobs:
           template: classic
           base: header, activity, repositories
           config_timezone: Asia/Kolkata
+          filename: metrics.svg
           output_action: github-pages
-          output_branch: output
