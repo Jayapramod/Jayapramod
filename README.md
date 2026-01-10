@@ -57,11 +57,12 @@ I design scalable cloud infrastructure, automate CI/CD pipelines, and optimize s
 ## 🟡 Contribution Activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Jayapramod/Jayapramod/output/pacman-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/Jayapramod/Jayapramod/output/pacman-contribution-graph.svg" />
+  <img alt="Pacman contribution graph"
+    src="https://raw.githubusercontent.com/Jayapramod/Jayapramod/output/pacman-contribution-graph.svg" />
 </picture>
-
 ---
-
 ⭐ Feel free to explore my repositories — collaboration is welcome!
